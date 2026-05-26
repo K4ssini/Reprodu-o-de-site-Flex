@@ -1,0 +1,409 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0; 
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.herr-von-muellerhoff-regular 
+{
+    font-family: "Herr Von Muellerhoff", cursive;
+    font-weight: 600;
+    font-style: normal;
+}  
+
+main
+{
+    margin-left: 26%;
+    display: flex;
+}
+/* ======================LADINHO====================== */
+#ladinho
+{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
+    width: 26%;
+    padding: 3%;
+    z-index: 99999;
+    padding-bottom: 30%;
+}
+
+#ladinho h1
+{
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+.opcoes
+{
+    margin-bottom: 5%;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+#ladinho a
+{
+    color: gray;
+    text-decoration: none;
+}
+
+#ladinho a:hover
+{
+    transition: 0.5s;
+    color: black;
+    text-decoration: underline;
+}
+
+
+#profile
+{
+    background-image: url(author.jpg);
+    border-radius: 100%;
+    width: 170px;
+    height: 180px;
+    background-position-x: center;
+    background-position-y: 50%;
+    background-size: 100%;
+}
+
+#news
+{
+    position: fixed;
+    left: 7%;
+    bottom: 3%;
+}
+
+#news h3
+{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.input-box input {
+    padding: 15px;
+    padding-right: 40px;
+    border: 1px solid #3333330e;
+    background: transparent;
+    width: 100%;
+}
+
+#aviao
+{
+    height: 20px;
+    position: absolute;
+    bottom: 12px;
+    right: 10px;
+}
+
+#fotolouie
+{
+    height: 990px;
+}
+/* =======================TEXTOS====================== */
+#texto
+{
+    margin-top: 20%;
+    margin-left: 2%;
+}
+
+#texto h1
+{
+    display: inline;
+}
+
+#gigantão
+{
+    position: absolute;
+    top:25%;
+    left: 61%;
+    font-size: 4.2em;
+    color: rgba(0, 0, 0, 0.062);
+}
+
+#porcima
+{
+    position: absolute;
+    top: -3%;
+    left: 5%;
+    color:rgba(0, 0, 0, 0.164);
+}
+
+#titulo
+{
+    font-size: 2.8em;
+}
+
+#dourado
+{
+    color:#ccb78f;
+    margin-left: 1.2%;
+    margin-right: 1.2%;
+}
+
+#texto p 
+{
+    margin-top: 5%;
+    display: flex;
+    color: rgb(148, 148, 148);
+    font-size: 19px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+#assinatura
+{
+    font-family: "Herr Von Muellerhoff", cursive;
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-top: 5%;
+}
+/* ========================REDES======================== */
+#redes
+{
+    justify-content: space-between;
+    position: absolute;
+    top: 70vh;
+    left: 63vw;
+}
+
+#x
+{
+    width: 30px;
+    height: 30px;
+}
+
+#face
+{
+    width: 30px;
+    height: 30px;
+}
+
+#insta
+{
+    width: 30px;
+    height: 30px;
+}
+/* ======================FOLLOW ME======================== */
+#fotos
+{
+    margin-left: 30%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+#fotos h2
+{
+    text-align: center;
+    color: #333333;
+    margin-bottom: 2%;
+}
+
+#galeria
+{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 70px;
+
+    .images
+    {
+        height: 198.3px;
+        width: 200px;
+    }
+    #img1
+    {
+        background-image: url(image_1.jpg);
+        background-size: 140%;
+        background-position-x: 40%;
+        background-position-y: 20%;
+    }
+    #img2
+    {
+        background-image: url(image_2.jpg);
+        background-size: 180%;
+        background-position-x: 40%;
+        background-position-y: 20%;
+    }
+    #img3
+    {
+        background-image: url(image_3.jpg);
+        background-size: 120%;
+        background-position-x: 50%;
+        background-position-y: 40%;
+    }
+    #img4
+    {
+        background-image: url(image_4.jpg);
+        background-size: 150%;
+        background-position-x: 40%;
+        background-position-y: 20%;
+    }
+    #img5
+    {
+        background-image: url(image_5.jpg );
+        background-size: 120%;
+        background-position-x: 40%;
+        background-position-y: 50%;
+    }
+    .images:hover
+    {
+        filter: brightness(80%);
+        transform: scale(1.3px);
+        transition: 0.5s;
+    }
+}
+
+/* ========================FOOTER========================= */
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #242423;
+    padding: 5%;
+}
+
+footer h2
+{
+    margin-bottom: 10%;
+    font-size: 1em;
+    letter-spacing: 3.4px;
+    text-decoration: none;
+}
+/* =========================RECENT======================== */
+#recente
+{
+    margin-left: 30%;
+    color: white;
+}
+
+#linha1, #linha2
+{ 
+    display: flex;
+}
+
+#img1
+{
+    background-image: url(image_1.jpg);
+    background-size: 140%;
+    background-position-x: 40%;
+    background-position-y: 20%;
+    height: 50;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+#img2
+{
+    background-image: url(image_2.jpg);
+    background-size: 180%;
+    background-position-x: 40%;
+    background-position-y: 20%;
+    height: 50;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+#img3
+{
+    background-image: url(image_3.jpg);
+    background-size: 120%;
+    background-position-x: 50%;
+    background-position-y: 40%;
+    height: 100px;
+    width: 120px;
+}
+#img4
+{
+    background-image: url(image_4.jpg);
+    background-size: 140%;
+    background-position-x: 40%;
+    background-position-y: 20%;
+    height: 50;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+#img5
+{
+    background-image: url(image_5.jpg );
+    background-size: 120%;
+    background-position-x: 40%;
+    background-position-y: 50%;
+    height: 100px;
+    width: 120px;
+}
+#img6
+{
+    background-image: url(image_6.jpg );
+    background-size: 120%;
+    background-position-x: 40%;
+    background-position-y: 50%;
+    height: 50;
+    width: 120px;
+    background-repeat: no-repeat;
+}
+
+/* ======================ARCHIVES======================== */
+#archives
+{
+    color: white;
+}
+
+#archives ul
+{
+    list-style: none;
+}
+
+#archives a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255, 0.5);
+}
+
+#archives span 
+{
+    margin-left: 50px;
+}
+
+/* ========================QUESTION======================== */
+#questions
+{
+    color: white;
+}
+
+#questions ul
+{
+    list-style: none;
+    color:gray;
+}
+
+#questions a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.alinha
+{
+    display: flex;
+    margin-bottom: 5%;
+}
+
+#marcador
+{
+    height: 20px;
+    margin-right: 15px;
+}
+
+#telefone
+{
+    height: 20px;
+    margin-right: 15px
+}
+
+#email
+{
+    height: 20px;
+    margin-right: 15px
+}
